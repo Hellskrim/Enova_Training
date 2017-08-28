@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnovaGit.Presentation", "Soneta.Examples\EnovaGit.Presentation.csproj", "{2DEE4EE5-DF48-480F-981C-5C9DC4F43F58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnovaGit.Tests", "Soneta.ExamplesTests\EnovaGit.Tests.csproj", "{CE10B632-2468-4896-BF39-DE0B3586D64E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnovaGit.Core", "EnovaGit.Core\EnovaGit.Core.csproj", "{759F5803-D938-4F0A-8A88-D7F3F1D4686B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnovaGit.Infrastructure", "EnovaGit.Infrastructure\EnovaGit.Infrastructure.csproj", "{B7A89B7F-35A1-46D0-99E8-F1AF92F81B12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EnovaGit", "EnovaGit", "{D9818982-4A2E-499C-86B4-C361C02420DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DEE4EE5-DF48-480F-981C-5C9DC4F43F58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DEE4EE5-DF48-480F-981C-5C9DC4F43F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DEE4EE5-DF48-480F-981C-5C9DC4F43F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DEE4EE5-DF48-480F-981C-5C9DC4F43F58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE10B632-2468-4896-BF39-DE0B3586D64E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE10B632-2468-4896-BF39-DE0B3586D64E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE10B632-2468-4896-BF39-DE0B3586D64E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE10B632-2468-4896-BF39-DE0B3586D64E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{759F5803-D938-4F0A-8A88-D7F3F1D4686B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{759F5803-D938-4F0A-8A88-D7F3F1D4686B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{759F5803-D938-4F0A-8A88-D7F3F1D4686B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{759F5803-D938-4F0A-8A88-D7F3F1D4686B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7A89B7F-35A1-46D0-99E8-F1AF92F81B12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A89B7F-35A1-46D0-99E8-F1AF92F81B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A89B7F-35A1-46D0-99E8-F1AF92F81B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A89B7F-35A1-46D0-99E8-F1AF92F81B12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{759F5803-D938-4F0A-8A88-D7F3F1D4686B} = {D9818982-4A2E-499C-86B4-C361C02420DF}
+		{B7A89B7F-35A1-46D0-99E8-F1AF92F81B12} = {D9818982-4A2E-499C-86B4-C361C02420DF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39ECCFA0-E144-4991-A0D8-3D7EC87E63F0}
+	EndGlobalSection
+EndGlobal
